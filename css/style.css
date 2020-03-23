@@ -1,0 +1,40 @@
+body {
+    font-size: Segoe UI;
+    font-size: 15px;
+    color: #777;
+}
+
+header {
+    position: absolute;
+    background-color: #ff6796;
+    width: 100%;
+    top: 0;
+}
+
+.titulos {
+    color: #444444 !important;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-style: italic;
+}
+
+.contenido {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444 !important;
+}
+
+#slides {
+    background-color: #ff6796;
+    justify-content: center;
+    justify-self: center;
+    display: grid;
+    padding-bottom: 5%;
+}
+
+.imagenes {
+    background-color: rgb(253, 154, 186);
+    width: 445px;
+    height: 445px;
+    border-radius: 100%;
+    padding: 30px;
+}
