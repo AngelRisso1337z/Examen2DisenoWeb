@@ -1,4 +1,5 @@
 body {
+    padding-top: 50px;
     font-size: Segoe UI;
     font-size: 15px;
     color: #777;
@@ -9,6 +10,7 @@ header {
     background-color: #ff6796;
     width: 100%;
     top: 0;
+    padding-bottom: 45px;
 }
 
 .titulos {
@@ -16,6 +18,7 @@ header {
     font-family: 'Lobster', cursive;
     text-align: center;
     font-style: italic;
+    font-size: 60px;
 }
 
 .contenido {
@@ -23,10 +26,19 @@ header {
     color: #444444 !important;
 }
 
+.titulos1 {
+    color: #444444 !important;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+}
+
+.contenido1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444 !important;
+}
+
 #slides {
     background-color: #ff6796;
-    justify-content: center;
-    justify-self: center;
     display: grid;
     padding-bottom: 5%;
 }
@@ -37,4 +49,21 @@ header {
     height: 445px;
     border-radius: 100%;
     padding: 30px;
+    margin-right: 5%;
+}
+
+.imagenes2 {
+    background-color: rgb(253, 154, 186);
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.btn-light {
+    background-color: #4983ff;
+}
+
+#works {
+    display: grid;
 }
