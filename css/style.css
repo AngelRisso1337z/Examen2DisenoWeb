@@ -33,6 +33,7 @@ header {
 }
 
 .contenido1 {
+    background-color: white !important;
     font-family: 'Open Sans', sans-serif;
     color: #444444 !important;
 }
@@ -66,4 +67,25 @@ header {
 
 #works {
     display: grid;
+}
+
+.imagenes3 {
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.produ {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+#products {
+    background-color: #01BEFE;
 }
