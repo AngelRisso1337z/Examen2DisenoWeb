@@ -73,6 +73,8 @@ header {
     width: 400px;
     height: 300px;
     border-radius: 12px;
+    z-index: 1;
+    bottom: 0;
 }
 
 .produ {
@@ -88,4 +90,28 @@ header {
 
 #products {
     background-color: #01BEFE;
+    display: inline-block;
+}
+
+#products p {
+    background-color: #ffffff;
+    padding-top: 50px;
+    top: 0;
+    z-index: 1;
+}
+
+#contact {
+    text-align: center;
+    background-color: #231D1D;
+}
+
+.redes i {
+    background-color: #464646;
+    color: white;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
 }
