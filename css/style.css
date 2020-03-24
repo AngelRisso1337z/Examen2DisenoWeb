@@ -113,5 +113,32 @@ header {
     text-align: center;
     line-height: 45px;
     border-radius: 100%;
-    transition: all 0.3s ease-in-out;
+}
+
+.icon-up {
+    position: relative;
+    background-color: #f2f4f8;
+    height: 200px;
+    overflow: hidden;
+}
+
+.icono {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    top: 0;
+}
+
+#features {
+    background-color: #FF6796;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#features p {
+    color: white !important;
 }
