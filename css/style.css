@@ -41,7 +41,7 @@ header {
 #slides {
     background-color: #ff6796;
     display: grid;
-    padding-bottom: 5%;
+    padding-bottom: 50px;
 }
 
 .imagenes {
@@ -63,10 +63,12 @@ header {
 
 .btn-light {
     background-color: #4983ff;
+    border-radius: 12px;
 }
 
 #works {
     display: grid;
+    padding-bottom: 50px;
 }
 
 .imagenes3 {
@@ -91,6 +93,8 @@ header {
 #products {
     background-color: #01BEFE;
     display: inline-block;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 #products p {
@@ -105,8 +109,12 @@ header {
     background-color: #231D1D;
 }
 
+.redes {
+    color: #ffffff;
+}
+
 .redes i {
-    background-color: #464646;
+    background-color: #464646 !important;
     color: white;
     width: 45px;
     height: 45px;
@@ -135,10 +143,24 @@ header {
 
 #features {
     background-color: #FF6796;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     text-align: center;
 }
 
 #features p {
     color: white !important;
+}
+
+#team {
+    background-color: #01BEFE;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#team h5 {
+    color: #ffffff !important;
+}
+
+#team p {
+    color: #ffffff;
 }
